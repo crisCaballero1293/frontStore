@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Producto</title>
+ <!-- STYLES -->
+ <link rel="stylesheet" href="../css/normalize.css">
+ <link rel="stylesheet" href="../css/main.css">
+ <!-- ICONS -->
+ <!-- FONTS -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+ <!-- ANIMATIONS -->
+ <!-- SEO -->
+</head>
+
+<body>
+
+ <header class="header">
+  <a href="/index.html">
+   <img class="header__logo" src="../img/logo.png" alt="logotipo">
+  </a>
+ </header>
+
+ <nav class="nav">
+  <a class="nav__link" href="../index.html">Tienda</a>
+  <a class="nav__link nav__link--active" href="./nosotros.html">Nosotros</a>
+ </nav>
+
+ <main class="container">
+  <h1 class="title title--min-spacing">React JS</h1>
+
+  <div class="camisa">
+   <img class="camisa__img" src="../img/3.jpg" alt="imagen-producto">
+
+   <div class="camisa__contenido">
+    <p class="camisa__txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, cumque. Sed quibusdam,
+     deserunt itaque ipsa reprehenderit commodi ex cum explicabo?</p>
+
+    <form class="formulario">
+     <select class="formulario__campo">
+      <option disabled selected>-- Seleccionar Talla --</option>
+      <option>Chica</option>
+      <option>Mediana</option>
+      <option>Grande</option>
+     </select>
+     <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+     <input class="formulario__submit" type="submit" value="Agregar al carrito">
+    </form>
+   </div>
+  </div>
+ </main>
+
+ <footer class="footer">
+  <p class="footer__txt">Front End Store - Todos los derechos reservados 2022.</p>
+  <p class="footer__txt">Powered by Cristian Caballero Dev</p>
+ </footer>
+</body>
+
+</html>
